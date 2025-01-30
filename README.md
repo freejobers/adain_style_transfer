@@ -11,12 +11,12 @@
 Запуск телеграмм бота из докер контейнера:
 
 1. Клонируем репозиторий
-    git clone https://github.com/freejobers/adain_style_transfer.git
+    `git clone https://github.com/freejobers/adain_style_transfer.git`
 
 2. Создаем докер образ 
-    docker build -t telegram-bot .
+    `docker build -t telegram-bot .`
 
 3. Запускаем контейнер
-    docker run -e TELEGRAM_BOT_TOKEN=<ваш_токен> telegram-bot
+    `docker run -e TELEGRAM_BOT_TOKEN=<ваш_токен> telegram-bot`
 
 Для начала работы бота в телеграмме отправляем команду /start и по очереди загружаем два изображения, первое контентное, второе стилевое, и ждем геренерации результата.
