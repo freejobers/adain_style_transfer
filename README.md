@@ -1,6 +1,6 @@
 # Проект нейронной сети NST AdaIN для переноса стилей изображения
 
-Основной код обучения модели находится в блокноте [anain-style-transfer-pytorch.ipynb](https://drive.google.com/file/d/1uPrD1Y_W_zlnF5PrrMae_0dEqMGotcXR/view?usp=sharing). 
+Основной код обучения модели находится в блокноте [anain-style-transfer-pytorch.ipynb](https://drive.google.com/file/d/1uPrD1Y_W_zlnF5PrrMae_0dEqMGotcXR/view?usp=sharing). Датасет представляет из себя два набора изображений контентные и стили. Контентые это бычные фотографии, а стили это картины различных художников. Поэтому модель будет хорошо переностить стили на фотографии каких нибудь картин, рисунков.
 
 Модель типа Neural Style Transfer AdaIN для переноса стилей. Обучена на датасете взятый отсюда https://www.kaggle.com/datasets/shaorrran/coco-wikiart-nst-dataset-512-100000.
 
