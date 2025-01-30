@@ -1,0 +1,8 @@
+# Исключить все файлы по умолчанию
+*
+
+# Включить только конкретные файлы
+!transfer_style_telegram_bot.py
+!requirements.txt
+!model.pth
+!adain_nst_model.py
