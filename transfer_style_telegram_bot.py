@@ -61,7 +61,7 @@ class ImageProcessingState(StatesGroup):
 @dp.message(Command("start"))
 async def start_command(message: Message, state: FSMContext):
     await state.set_state(ImageProcessingState.waiting_for_first_image)
-    await message.answer("Привет! Отправьте первое изображение.")
+    await message.answer("Привет! Отправьте первое изображение (Контентное).")
 
 # Прием первого изображения
 @dp.message(ImageProcessingState.waiting_for_first_image, F.photo | F.document)
@@ -94,7 +94,7 @@ async def first_image(message: Message, state: FSMContext):
     # Сохраняем путь к первому изображению в состояние
     await state.update_data(first_image_path=first_image_path)
     await state.set_state(ImageProcessingState.waiting_for_second_image)
-    await message.answer("Первое изображение получено! Теперь отправьте второе изображение.")
+    await message.answer("Первое изображение получено! Теперь отправьте второе изображение (Стилевое).")
 
 
 # Прием второго изображения
