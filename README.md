@@ -97,3 +97,7 @@ plt.show()
 
 Этот проект основан на идее работы "Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization".
 
+
+https://github.com/user-attachments/assets/d40c2fe4-604b-4eb7-a6bf-b7dc8c22c014
+
+
