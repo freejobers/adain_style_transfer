@@ -69,8 +69,6 @@ plt.imshow(output.squeeze().permute(1, 2, 0))
 plt.show()
 ```
 
-## Автор
-
 Этот проект основан на идее работы "Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization".
 
 
